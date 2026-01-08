@@ -421,6 +421,7 @@ Section "un.${APPNAME} App Files" UninstallSection1
 	RMDir /r "$INSTDIR\obs-plugins"
 	RMDir /r "$INSTDIR\OBS Studio"
 	RMDir "$INSTDIR"
+	SetAutoClose true
 SectionEnd
 
 Section /o "un.Settings, Scenes, etc." UninstallSection2
