@@ -436,7 +436,7 @@ SectionEnd
 VIProductVersion "${APPVERSION}.0"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "${APPNAME}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "OBS Project"
-VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "(C) 2012-2025"
+VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "(C) 2012-2026"
 ; FileDescription is what shows in the UAC elevation prompt when signed
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "${APPNAME} Installer"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "${APPVERSION}"
