@@ -430,6 +430,7 @@ Section "un.${APPNAME} App Files" UninstallSection1
 	; Remove remaining directories
 	RMDir "$SMPROGRAMS\OBS Studio"
 	RMDir "$INSTDIR\OBS Studio"
+	SetAutoClose true
 SectionEnd
 
 Section /o "un.Settings, Scenes, etc." UninstallSection2
